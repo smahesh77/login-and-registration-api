@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 
-const URI = "mongodb+srv://smahesh7736:x!_WAQ!NMYfy23N@cluster0.p9vxhp1.mongodb.net/mernDB?retryWrites=true&w=majority"
+const URI = "mongodb+srv://name:pass@cluster0.p9vxhp1.mongodb.net/db_name?retryWrites=true&w=majority"
 
 // listen for request
 const connection = mongoose.connect(URI)
